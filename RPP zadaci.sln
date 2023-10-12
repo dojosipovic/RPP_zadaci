@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyConverter", "MoneyConv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginAndRegistration", "LoginAndRegistration\LoginAndRegistration.csproj", "{EC3E0338-FA83-49D0-B090-6084669E383F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotingSystem", "VotingSystem\VotingSystem.csproj", "{BD3831C4-5E4D-4B39-9B40-B106AD2EC481}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EC3E0338-FA83-49D0-B090-6084669E383F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC3E0338-FA83-49D0-B090-6084669E383F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC3E0338-FA83-49D0-B090-6084669E383F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3831C4-5E4D-4B39-9B40-B106AD2EC481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3831C4-5E4D-4B39-9B40-B106AD2EC481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3831C4-5E4D-4B39-9B40-B106AD2EC481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3831C4-5E4D-4B39-9B40-B106AD2EC481}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
