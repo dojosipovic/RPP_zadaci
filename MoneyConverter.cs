@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MoneyConverter
 {
-    public partial class Form1 : Form
+    public partial class MoneyConverter : Form
     {
-        public Form1()
+        public MoneyConverter()
         {
             InitializeComponent();
         }
