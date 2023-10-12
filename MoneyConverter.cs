@@ -32,10 +32,26 @@ namespace MoneyConverter
             var firstCurr = cbFirstCurr.SelectedItem as Currency;
             var secondCurr = cbSecondCurr.SelectedItem as Currency;
             var amount = 0;
-            int.TryParse(tbAmount.Text, out amount);
+            bool isParsed = int.TryParse(tbAmount.Text, out amount);
 
-            var converted = firstCurr.Exchange / secondCurr.Exchange * amount;
-            tbConverted.Text = converted.ToString();
+            if (!isParsed )
+            {
+                MessageBox.Show("Molimo unesite broj!");
+            }
+            else if (firstCurr == null || secondCurr == null)
+            {
+                MessageBox.Show("Odaberite sve valute!");
+            }
+            else if (amount < 0)
+            {
+                MessageBox.Show("Unijeli ste negativan broj!");
+            }
+            else
+            {
+                var converted = firstCurr.Exchange / secondCurr.Exchange * amount;
+                tbConverted.Text = converted.ToString();
+            }
+            
         }
     }
 }
