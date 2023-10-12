@@ -101,6 +101,7 @@
             this.btnConvert.TabIndex = 7;
             this.btnConvert.Text = "Convert";
             this.btnConvert.UseVisualStyleBackColor = true;
+            this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
             // 
             // label4
             // 
@@ -135,6 +136,7 @@
             this.Controls.Add(this.label1);
             this.Name = "MoneyConverter";
             this.Text = "Money Converter";
+            this.Load += new System.EventHandler(this.MoneyConverter_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

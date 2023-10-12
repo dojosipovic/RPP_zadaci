@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Converter.cs" />
+    <Compile Include="Classes\Currency.cs" />
+    <Compile Include="Classes\CurrencyRepository.cs" />
     <Compile Include="MoneyConverter.cs">
       <SubType>Form</SubType>
     </Compile>
