@@ -84,6 +84,7 @@
             this.btnVote.TabIndex = 4;
             this.btnVote.Text = "Vote";
             this.btnVote.UseVisualStyleBackColor = true;
+            this.btnVote.Click += new System.EventHandler(this.btnVote_Click);
             // 
             // label3
             // 
@@ -168,6 +169,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Voting";
             this.Text = "Voting";
+            this.Load += new System.EventHandler(this.Voting_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
