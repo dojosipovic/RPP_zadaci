@@ -31,8 +31,8 @@ namespace MoneyConverter
         {
             var firstCurr = cbFirstCurr.SelectedItem as Currency;
             var secondCurr = cbSecondCurr.SelectedItem as Currency;
-            var amount = 0;
-            bool isParsed = int.TryParse(tbAmount.Text, out amount);
+            double amount = 0;
+            bool isParsed = double.TryParse(tbAmount.Text, out amount);
 
             if (!isParsed )
             {
