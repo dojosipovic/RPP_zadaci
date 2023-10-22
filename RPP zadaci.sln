@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelskeSobe", "HotelskeSob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knjiznica", "Knjiznica\Knjiznica.csproj", "{92C8B683-EE2F-4D16-A405-D0A4EAD9E87D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KonverzijaValuta", "KonverzijaValuta\KonverzijaValuta.csproj", "{6115B9E4-908F-42AD-B16A-2B0DC94621B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{92C8B683-EE2F-4D16-A405-D0A4EAD9E87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92C8B683-EE2F-4D16-A405-D0A4EAD9E87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92C8B683-EE2F-4D16-A405-D0A4EAD9E87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6115B9E4-908F-42AD-B16A-2B0DC94621B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6115B9E4-908F-42AD-B16A-2B0DC94621B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6115B9E4-908F-42AD-B16A-2B0DC94621B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6115B9E4-908F-42AD-B16A-2B0DC94621B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
