@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginAndRegistration", "Log
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotingSystem", "VotingSystem\VotingSystem.csproj", "{BD3831C4-5E4D-4B39-9B40-B106AD2EC481}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelskeSobe", "HotelskeSobe\HotelskeSobe.csproj", "{F7F25AB2-FD4F-4D86-A201-EDE52A540351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BD3831C4-5E4D-4B39-9B40-B106AD2EC481}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD3831C4-5E4D-4B39-9B40-B106AD2EC481}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD3831C4-5E4D-4B39-9B40-B106AD2EC481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F25AB2-FD4F-4D86-A201-EDE52A540351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F25AB2-FD4F-4D86-A201-EDE52A540351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F25AB2-FD4F-4D86-A201-EDE52A540351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F25AB2-FD4F-4D86-A201-EDE52A540351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
