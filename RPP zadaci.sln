@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotingSystem", "VotingSyste
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelskeSobe", "HotelskeSobe\HotelskeSobe.csproj", "{F7F25AB2-FD4F-4D86-A201-EDE52A540351}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knjiznica", "Knjiznica\Knjiznica.csproj", "{92C8B683-EE2F-4D16-A405-D0A4EAD9E87D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F7F25AB2-FD4F-4D86-A201-EDE52A540351}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7F25AB2-FD4F-4D86-A201-EDE52A540351}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7F25AB2-FD4F-4D86-A201-EDE52A540351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C8B683-EE2F-4D16-A405-D0A4EAD9E87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C8B683-EE2F-4D16-A405-D0A4EAD9E87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C8B683-EE2F-4D16-A405-D0A4EAD9E87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C8B683-EE2F-4D16-A405-D0A4EAD9E87D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
