@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knjiznica", "Knjiznica\Knji
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KonverzijaValuta", "KonverzijaValuta\KonverzijaValuta.csproj", "{6115B9E4-908F-42AD-B16A-2B0DC94621B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingServis", "StreamingServis\StreamingServis.csproj", "{8939A6E8-AF89-4305-8DD1-816ACDABCEB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{6115B9E4-908F-42AD-B16A-2B0DC94621B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6115B9E4-908F-42AD-B16A-2B0DC94621B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6115B9E4-908F-42AD-B16A-2B0DC94621B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8939A6E8-AF89-4305-8DD1-816ACDABCEB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8939A6E8-AF89-4305-8DD1-816ACDABCEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8939A6E8-AF89-4305-8DD1-816ACDABCEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8939A6E8-AF89-4305-8DD1-816ACDABCEB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

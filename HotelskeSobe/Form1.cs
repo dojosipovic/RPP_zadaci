@@ -38,5 +38,10 @@ namespace HotelskeSobe
                 dgvSlobodneSobe.DataSource = Recepcija.DohvatiSlobodneSobe(datum);
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
