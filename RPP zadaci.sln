@@ -19,7 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingServis", "Streamin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopisZadataka", "PopisZadataka\PopisZadataka.csproj", "{5EF8CCCE-A05B-441E-8F40-111AF5E1791A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter", "CurrencyConverter\CurrencyConverter.csproj", "{CDC28B1E-1333-463F-8C8D-14ED9DFD9943}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyConverter", "CurrencyConverter\CurrencyConverter.csproj", "{CDC28B1E-1333-463F-8C8D-14ED9DFD9943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PametnaKuca", "PametnaKuca\PametnaKuca.csproj", "{6FA1538D-5F27-464A-86A9-C493E65EAA1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingServis2", "StreamingServis2\StreamingServis2.csproj", "{43673504-F9E0-4A8B-92A1-BF547DDB8CC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{CDC28B1E-1333-463F-8C8D-14ED9DFD9943}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDC28B1E-1333-463F-8C8D-14ED9DFD9943}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDC28B1E-1333-463F-8C8D-14ED9DFD9943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA1538D-5F27-464A-86A9-C493E65EAA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA1538D-5F27-464A-86A9-C493E65EAA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA1538D-5F27-464A-86A9-C493E65EAA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA1538D-5F27-464A-86A9-C493E65EAA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43673504-F9E0-4A8B-92A1-BF547DDB8CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43673504-F9E0-4A8B-92A1-BF547DDB8CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43673504-F9E0-4A8B-92A1-BF547DDB8CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43673504-F9E0-4A8B-92A1-BF547DDB8CC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
