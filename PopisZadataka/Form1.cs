@@ -35,6 +35,8 @@ namespace PopisZadataka
 
             dgvZadaci.DataSource = null;
             dgvZadaci.DataSource = ZadatakRepozitorij.DohvatiZadatke();
+
+            ZadatakRepozitorij.ObojiPrikaz(dgvZadaci);
         }
     }
 }
