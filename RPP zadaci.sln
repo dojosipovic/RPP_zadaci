@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PametnaKuca", "PametnaKuca\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingServis2", "StreamingServis2\StreamingServis2.csproj", "{43673504-F9E0-4A8B-92A1-BF547DDB8CC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrepaidKartica", "PrepaidKartica\PrepaidKartica.csproj", "{6531B1FD-2696-46E3-BDB3-10600F3F9C2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{43673504-F9E0-4A8B-92A1-BF547DDB8CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43673504-F9E0-4A8B-92A1-BF547DDB8CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43673504-F9E0-4A8B-92A1-BF547DDB8CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6531B1FD-2696-46E3-BDB3-10600F3F9C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6531B1FD-2696-46E3-BDB3-10600F3F9C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6531B1FD-2696-46E3-BDB3-10600F3F9C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6531B1FD-2696-46E3-BDB3-10600F3F9C2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
