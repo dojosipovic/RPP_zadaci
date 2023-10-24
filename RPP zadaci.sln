@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrepaidKartica", "PrepaidKa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadniNalog", "RadniNalog\RadniNalog.csproj", "{259F91FE-1BE8-4137-B323-05564473CFB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar", "RentACar\RentACar.csproj", "{60B91A79-9FD2-4A1E-B229-E71EF9637871}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{259F91FE-1BE8-4137-B323-05564473CFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{259F91FE-1BE8-4137-B323-05564473CFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{259F91FE-1BE8-4137-B323-05564473CFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B91A79-9FD2-4A1E-B229-E71EF9637871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B91A79-9FD2-4A1E-B229-E71EF9637871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B91A79-9FD2-4A1E-B229-E71EF9637871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B91A79-9FD2-4A1E-B229-E71EF9637871}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
