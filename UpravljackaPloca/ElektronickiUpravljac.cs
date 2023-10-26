@@ -8,7 +8,7 @@ namespace UpravljackaPloca
 {
     internal class ElektronickiUpravljac
     {
-        public List<IOtvor> Otvori {  get; set; }
+        public List<IOtvor> Otvori { get; set; }
 
         public ElektronickiUpravljac()
         {
