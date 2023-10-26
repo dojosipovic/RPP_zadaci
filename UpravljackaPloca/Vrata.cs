@@ -25,9 +25,6 @@ namespace UpravljackaPloca
                 Status = StatusOtvora.Otvoren;
         }
 
-        public void Zatvori()
-        {
-            Status = StatusOtvora.Zatvoren;
-        }
+        public void Zatvori() => Status = StatusOtvora.Zatvoren;
     }
 }

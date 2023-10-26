@@ -15,14 +15,8 @@ namespace UpravljackaPloca
         {
             Oznaka = oznaka;
         }
-        public void Otvori()
-        {
-            Status = StatusOtvora.Otvoren;
-        }
+        public void Otvori() => Status = StatusOtvora.Otvoren;
 
-        public void Zatvori()
-        {
-            Status = StatusOtvora.Zatvoren;
-        }
+        public void Zatvori() => Status = StatusOtvora.Zatvoren;
     }
 }
