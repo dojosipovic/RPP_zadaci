@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadniNalog", "RadniNalog\Ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar", "RentACar\RentACar.csproj", "{60B91A79-9FD2-4A1E-B229-E71EF9637871}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpravljackaPloca", "UpravljackaPloca\UpravljackaPloca.csproj", "{E3557A7F-76AD-42CC-8AF5-0534616620DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{60B91A79-9FD2-4A1E-B229-E71EF9637871}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60B91A79-9FD2-4A1E-B229-E71EF9637871}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60B91A79-9FD2-4A1E-B229-E71EF9637871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3557A7F-76AD-42CC-8AF5-0534616620DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3557A7F-76AD-42CC-8AF5-0534616620DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3557A7F-76AD-42CC-8AF5-0534616620DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3557A7F-76AD-42CC-8AF5-0534616620DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
