@@ -25,6 +25,8 @@ namespace MoneyConverter
                 cbFirstCurr.Items.Add(curr);
                 cbSecondCurr.Items.Add(curr);
             }
+
+            CurrencyRepository.Test().ForEach(x => Console.WriteLine(x));
         }
 
         private void btnConvert_Click(object sender, EventArgs e)

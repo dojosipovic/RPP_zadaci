@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpravljackaPloca", "Upravlj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecajnaLista", "TecajnaLista\TecajnaLista.csproj", "{71BAF826-44FD-438E-BF06-D8D483F29FB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsReport", "ProjectsReport\ProjectsReport.csproj", "{A9C866C1-D7A5-4CDA-99BB-9137D1E0B478}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{71BAF826-44FD-438E-BF06-D8D483F29FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71BAF826-44FD-438E-BF06-D8D483F29FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71BAF826-44FD-438E-BF06-D8D483F29FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C866C1-D7A5-4CDA-99BB-9137D1E0B478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C866C1-D7A5-4CDA-99BB-9137D1E0B478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C866C1-D7A5-4CDA-99BB-9137D1E0B478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C866C1-D7A5-4CDA-99BB-9137D1E0B478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

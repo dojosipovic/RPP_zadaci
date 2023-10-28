@@ -15,7 +15,15 @@ namespace MoneyConverter.Classes
             new Currency { Name = "EUR", Exchange = 7.4 },
             new Currency { Name = "USD", Exchange = 6.5 },
             new Currency { Name = "GBP", Exchange = 8.5 },
+            new Currency { Name = "GBP", Exchange = 8.5 },
             new Currency { Name = "CAD", Exchange = 4.9 }
         };
+
+        public static List<string> Test()
+        {
+            return currencies.Select(x => x.Name)
+                .Distinct()
+                .ToList();
+        }
     }
 }
