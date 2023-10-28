@@ -20,8 +20,11 @@ namespace ProjectsReport
 
         private void btnDisplaySelected_Click(object sender, EventArgs e)
         {
-            string mentor = cmbMentors.SelectedItem.ToString();
-            txtReport.Text = catalog.CreateReport(mentor);
+            var mentor = cmbMentors.SelectedItem;
+            if (mentor != null)
+            {
+                txtReport.Text = catalog.CreateReport(mentor.ToString());
+            }
         }
 
         private void ProjectRepotForm_Load(object sender, EventArgs e)

@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecajnaLista", "TecajnaList
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsReport", "ProjectsReport\ProjectsReport.csproj", "{A9C866C1-D7A5-4CDA-99BB-9137D1E0B478}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherProjects", "TeacherProjects\TeacherProjects.csproj", "{8F95D529-E4BF-4168-B659-3A9096300DC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{A9C866C1-D7A5-4CDA-99BB-9137D1E0B478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9C866C1-D7A5-4CDA-99BB-9137D1E0B478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9C866C1-D7A5-4CDA-99BB-9137D1E0B478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F95D529-E4BF-4168-B659-3A9096300DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F95D529-E4BF-4168-B659-3A9096300DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F95D529-E4BF-4168-B659-3A9096300DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F95D529-E4BF-4168-B659-3A9096300DC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
