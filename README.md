@@ -24,6 +24,6 @@ Nasi RPP zadaci
 ## Tjedan 4
  - [TecajnaLista](https://github.com/dojosipovic/RPP_zadaci/tree/master/TecajnaLista) [[pdf]](https://github.com/dojosipovic/RPP_zadaci/blob/master/PDFs/TecajnaLista.pdf)
  - [ProjectsReport](https://github.com/dojosipovic/RPP_zadaci/tree/master/ProjectsReport) [[pdf]](https://github.com/dojosipovic/RPP_zadaci/blob/master/PDFs/ProjectsReport.pdf)
- - TeacherProjects [[pdf]](https://github.com/dojosipovic/RPP_zadaci/blob/master/PDFs/TeacherProjects.pdf)
+ - [TeacherProjects](https://github.com/dojosipovic/RPP_zadaci/tree/master/TeacherProjects) [[pdf]](https://github.com/dojosipovic/RPP_zadaci/blob/master/PDFs/TeacherProjects.pdf)
  - [UpravljackaPloca](https://github.com/dojosipovic/RPP_zadaci/tree/master/UpravljackaPloca) [[pdf]](https://github.com/dojosipovic/RPP_zadaci/blob/master/PDFs/UpravljckaPloca.pdf)
  - DigitalnaBrava [[pdf]](https://github.com/dojosipovic/RPP_zadaci/blob/master/PDFs/DigitalnaBrava.pdf)
