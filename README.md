@@ -26,4 +26,4 @@ Nasi RPP zadaci
  - [ProjectsReport](https://github.com/dojosipovic/RPP_zadaci/tree/master/ProjectsReport) [[pdf]](https://github.com/dojosipovic/RPP_zadaci/blob/master/PDFs/ProjectsReport.pdf)
  - [TeacherProjects](https://github.com/dojosipovic/RPP_zadaci/tree/master/TeacherProjects) [[pdf]](https://github.com/dojosipovic/RPP_zadaci/blob/master/PDFs/TeacherProjects.pdf)
  - [UpravljackaPloca](https://github.com/dojosipovic/RPP_zadaci/tree/master/UpravljackaPloca) [[pdf]](https://github.com/dojosipovic/RPP_zadaci/blob/master/PDFs/UpravljckaPloca.pdf)
- - DigitalnaBrava [[pdf]](https://github.com/dojosipovic/RPP_zadaci/blob/master/PDFs/DigitalnaBrava.pdf)
+ - [DigitalnaBrava](https://github.com/dojosipovic/RPP_zadaci/tree/master/DigitalnaBrava) [[pdf]](https://github.com/dojosipovic/RPP_zadaci/blob/master/PDFs/DigitalnaBrava.pdf)
