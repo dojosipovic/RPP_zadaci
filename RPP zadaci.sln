@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherProjects", "TeacherP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalnaBrava", "DigitalnaBrava\DigitalnaBrava.csproj", "{D812EC79-7B6C-43A1-A117-E60E4AABEBFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKolekcija", "TestKolekcija\TestKolekcija.csproj", "{7BC5E55A-2A2C-40F8-8D9B-B2C55A98B193}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{D812EC79-7B6C-43A1-A117-E60E4AABEBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D812EC79-7B6C-43A1-A117-E60E4AABEBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D812EC79-7B6C-43A1-A117-E60E4AABEBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC5E55A-2A2C-40F8-8D9B-B2C55A98B193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC5E55A-2A2C-40F8-8D9B-B2C55A98B193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC5E55A-2A2C-40F8-8D9B-B2C55A98B193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC5E55A-2A2C-40F8-8D9B-B2C55A98B193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
