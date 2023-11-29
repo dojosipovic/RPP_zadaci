@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DB_EntityModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="MeasurementUnits">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Sensors">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="IdSensorTypes" Type="int" />
+          <Property Name="IdMeasurementUnits" Type="int" />
+        </EntityType>
+        <EntityType Name="SensorTypes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Type" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Sensors_MeasurementUnits">
+          <End Role="MeasurementUnits" Type="Self.MeasurementUnits" Multiplicity="0..1" />
+          <End Role="Sensors" Type="Self.Sensors" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MeasurementUnits">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sensors">
+              <PropertyRef Name="IdMeasurementUnits" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Sensors_SensorTypes">
+          <End Role="SensorTypes" Type="Self.SensorTypes" Multiplicity="0..1" />
+          <End Role="Sensors" Type="Self.Sensors" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SensorTypes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sensors">
+              <PropertyRef Name="IdSensorTypes" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DB_EntityModelStoreContainer">
+          <EntitySet Name="MeasurementUnits" EntityType="Self.MeasurementUnits" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sensors" EntityType="Self.Sensors" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SensorTypes" EntityType="Self.SensorTypes" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Sensors_MeasurementUnits" Association="Self.FK_Sensors_MeasurementUnits">
+            <End Role="MeasurementUnits" EntitySet="MeasurementUnits" />
+            <End Role="Sensors" EntitySet="Sensors" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Sensors_SensorTypes" Association="Self.FK_Sensors_SensorTypes">
+            <End Role="SensorTypes" EntitySet="SensorTypes" />
+            <End Role="Sensors" EntitySet="Sensors" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DB_EntityModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="MeasurementUnit">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Sensors" Relationship="Self.FK_Sensors_MeasurementUnits" FromRole="MeasurementUnits" ToRole="Sensors" />
+        </EntityType>
+        <EntityType Name="Sensor">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IdSensorTypes" Type="Int32" />
+          <Property Name="IdMeasurementUnits" Type="Int32" />
+          <NavigationProperty Name="MeasurementUnit" Relationship="Self.FK_Sensors_MeasurementUnits" FromRole="Sensors" ToRole="MeasurementUnits" />
+          <NavigationProperty Name="SensorType" Relationship="Self.FK_Sensors_SensorTypes" FromRole="Sensors" ToRole="SensorTypes" />
+        </EntityType>
+        <EntityType Name="SensorType">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Sensors" Relationship="Self.FK_Sensors_SensorTypes" FromRole="SensorTypes" ToRole="Sensors" />
+        </EntityType>
+        <Association Name="FK_Sensors_MeasurementUnits">
+          <End Role="MeasurementUnits" Type="Self.MeasurementUnit" Multiplicity="0..1" />
+          <End Role="Sensors" Type="Self.Sensor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MeasurementUnits">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sensors">
+              <PropertyRef Name="IdMeasurementUnits" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Sensors_SensorTypes">
+          <End Role="SensorTypes" Type="Self.SensorType" Multiplicity="0..1" />
+          <End Role="Sensors" Type="Self.Sensor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SensorTypes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sensors">
+              <PropertyRef Name="IdSensorTypes" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DB_EntityEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="MeasurementUnits" EntityType="Self.MeasurementUnit" />
+          <EntitySet Name="Sensors" EntityType="Self.Sensor" />
+          <EntitySet Name="SensorTypes" EntityType="Self.SensorType" />
+          <AssociationSet Name="FK_Sensors_MeasurementUnits" Association="Self.FK_Sensors_MeasurementUnits">
+            <End Role="MeasurementUnits" EntitySet="MeasurementUnits" />
+            <End Role="Sensors" EntitySet="Sensors" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Sensors_SensorTypes" Association="Self.FK_Sensors_SensorTypes">
+            <End Role="SensorTypes" EntitySet="SensorTypes" />
+            <End Role="Sensors" EntitySet="Sensors" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DB_EntityModelStoreContainer" CdmEntityContainer="DB_EntityEntities">
+          <EntitySetMapping Name="MeasurementUnits">
+            <EntityTypeMapping TypeName="DB_EntityModel.MeasurementUnit">
+              <MappingFragment StoreEntitySet="MeasurementUnits">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sensors">
+            <EntityTypeMapping TypeName="DB_EntityModel.Sensor">
+              <MappingFragment StoreEntitySet="Sensors">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="IdSensorTypes" ColumnName="IdSensorTypes" />
+                <ScalarProperty Name="IdMeasurementUnits" ColumnName="IdMeasurementUnits" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SensorTypes">
+            <EntityTypeMapping TypeName="DB_EntityModel.SensorType">
+              <MappingFragment StoreEntitySet="SensorTypes">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

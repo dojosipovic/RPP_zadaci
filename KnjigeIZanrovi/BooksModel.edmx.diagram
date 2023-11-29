@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="17583d8e40594722877813d393188179" Name="Diagram1" ZoomLevel="98">
+        <EntityTypeShape EntityType="EF_DBModel.Activity" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_DBModel.Assignment" Width="1.5" PointX="10" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_DBModel.AssignmentStatus" Width="1.5" PointX="7.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_DBModel.Book" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_DBModel.Category" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_DBModel.Employee" Width="1.5" PointX="2.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_DBModel.Genre" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_DBModel.Product" Width="1.5" PointX="10" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_DBModel.Score" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_DBModel.Student" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_DBModel.sysdiagram" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_DBModel.Task" Width="1.5" PointX="5" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="EF_DBModel.FK_Scores_Activities" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_DBModel.FK_Assignments_AssignmentStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_DBModel.FK_Books_Genres" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_DBModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_DBModel.FK_Tasks_Tasks" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_DBModel.FK_Scores_Students" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
