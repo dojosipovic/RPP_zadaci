@@ -1,0 +1,19 @@
+﻿<Window x:Class="AssignmensStudents.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AssignmensStudents"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Loaded="Window_Loaded">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="773*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="dgStudents" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,10,48" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Height="33" Width="71" Grid.Column="1" Click="btnDelete_Click"/>
+        <Button x:Name="btnAddNew" Content="Add new" HorizontalAlignment="Right" Margin="0,0,86,10" VerticalAlignment="Bottom" Height="33" Width="75" Grid.Column="1" Click="btnAddNew_Click"/>
+
+    </Grid>
+</Window>

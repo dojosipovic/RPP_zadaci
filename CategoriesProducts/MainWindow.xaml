@@ -1,0 +1,24 @@
+﻿<Window x:Class="CategoriesProducts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CategoriesProducts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="458" Width="1061" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content="Category" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="dgCategory" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,41,0,50" HorizontalAlignment="Left" Width="378" SelectionChanged="dgCategory_SelectionChanged"/>
+        <DataGrid x:Name="dgProducts" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="393,41,10,50"/>
+        <Label Content="Products" HorizontalAlignment="Left" Margin="393,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Height="35" Width="71" Click="btnDelete_Click"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Right" Margin="0,0,86,10" VerticalAlignment="Bottom" Height="35" Width="71" Click="btnAdd_Click"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Right" Margin="0,0,162,10" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="120"/>
+        <TextBox x:Name="txtQuantity" HorizontalAlignment="Right" Margin="0,0,287,10" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="120"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Right" Margin="0,0,412,10" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="120"/>
+        <Label Content="Unit price:" HorizontalAlignment="Right" Margin="0,0,162,27" VerticalAlignment="Bottom" Height="17" FontSize="6" Width="120"/>
+        <Label Content="Quantity:" HorizontalAlignment="Right" Margin="0,0,287,28" VerticalAlignment="Bottom" Height="17" FontSize="6" Width="120"/>
+        <Label Content="Product name:" HorizontalAlignment="Right" Margin="0,0,412,28" VerticalAlignment="Bottom" Height="17" FontSize="6" Width="119"/>
+
+    </Grid>
+</Window>
