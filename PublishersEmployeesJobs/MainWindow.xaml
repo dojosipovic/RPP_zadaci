@@ -1,0 +1,18 @@
+﻿<Window x:Class="PublishersEmployeesJobs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PublishersEmployeesJobs"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <DockPanel LastChildFill="False">
+        <DataGrid x:Name="dgEmployees" DockPanel.Dock="Top" d:ItemsSource="{d:SampleData ItemCount=5}" Height="147"/>
+        <Grid DockPanel.Dock="Top" Height="50">
+            <Button x:Name="btnRemove" Content="Remove" Margin="0,10,10,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="66" Height="34"></Button>
+            <Button x:Name="btnUpdate" Content="Update" Margin="0,10,81,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="66" Height="34"/>
+            <Button x:Name="btnAdd" Content="Add" Margin="0,10,152,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="66" Height="34" Click="btnAdd_Click"/>
+        </Grid>
+        <ContentControl x:Name="contentPanel" Width="800"></ContentControl>
+    </DockPanel>
+</Window>

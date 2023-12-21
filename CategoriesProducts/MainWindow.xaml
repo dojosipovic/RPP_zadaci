@@ -8,8 +8,8 @@
         Title="MainWindow" Height="458" Width="1061" Loaded="Window_Loaded">
     <Grid>
         <Label Content="Category" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <DataGrid x:Name="dgCategory" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,41,0,50" HorizontalAlignment="Left" Width="378" SelectionChanged="dgCategory_SelectionChanged"/>
-        <DataGrid x:Name="dgProducts" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="393,41,10,50"/>
+        <DataGrid x:Name="dgCategory" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,41,0,50" HorizontalAlignment="Left" Width="378" SelectionChanged="dgCategory_SelectionChanged" ColumnWidth="*"/>
+        <DataGrid x:Name="dgProducts" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="393,41,10,50" ColumnWidth="*"/>
         <Label Content="Products" HorizontalAlignment="Left" Margin="393,10,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Height="35" Width="71" Click="btnDelete_Click"/>
         <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Right" Margin="0,0,86,10" VerticalAlignment="Bottom" Height="35" Width="71" Click="btnAdd_Click"/>
